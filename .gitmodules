@@ -18,3 +18,7 @@
 	path = bundle/YouCompleteMe
 	url = https://github.com/valloric/YouCompleteMe.git
 	branch = master
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
+	branch = master
