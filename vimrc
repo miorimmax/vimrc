@@ -6,3 +6,8 @@ filetype plugin indent on
 
 " Disable automatic conealing of double quotes by vim-json
 let g:vim_json_syntax_conceal = 0
+
+" Indentation
+set expandtab
+set tabstop=4 shiftwidth=4 softtabstop=4
+set autoindent
