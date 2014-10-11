@@ -11,3 +11,6 @@ let g:vim_json_syntax_conceal = 0
 set expandtab
 set tabstop=4 shiftwidth=4 softtabstop=4
 set autoindent
+
+" Look and feel
+colorscheme zenburn

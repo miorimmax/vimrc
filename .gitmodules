@@ -22,3 +22,7 @@
 	path = bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
 	branch = master
+[submodule "bundle/Zenburn"]
+	path = bundle/Zenburn
+	url = https://github.com/jnurmine/Zenburn.git
+	branch = master
