@@ -1,3 +1,6 @@
+" Syntax highlighting of nginx configuration for vim taken from nginx contrib
+" tree: http://hg.nginx.org/nginx/file/tip/contrib/vim
+
 " Vim syntax file
 " Language: nginx.conf
 
