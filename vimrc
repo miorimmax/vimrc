@@ -14,3 +14,7 @@ set autoindent
 
 " Look and feel
 colorscheme zenburn
+
+" CtrlP
+let mapleader = ","
+let g:ctrlp_map = "<Leader>f"
