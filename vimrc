@@ -35,6 +35,7 @@ set tabstop=4 shiftwidth=4 softtabstop=4
 set autoindent
 
 " Look and feel
+"let g:zenburn_force_dark_Background = 1
 colorscheme zenburn
 set number
 set cursorline
