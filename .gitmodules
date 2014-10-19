@@ -38,3 +38,7 @@
 	path = bundle/bats.vim
 	url = https://github.com/rosstimson/bats.vim.git
 	branch = master
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala.git
+	branch = master
