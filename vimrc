@@ -69,3 +69,6 @@ set encoding=utf-8
 if !exists('g:loaded_matchit') && findfile('plugin/matchit.vim', &rtp) ==# ''
     runtime! macros/matchit.vim
 endif
+
+" Enable mouse
+set mouse=a
