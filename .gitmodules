@@ -46,3 +46,6 @@
 	path = bundle/vim-syntax-vcl
 	url = git@github.com:pld-linux/vim-syntax-vcl.git
 	branch = master
+[submodule "bundle/vim-rdoc"]
+	path = bundle/vim-rdoc
+	url = https://github.com/depuracao/vim-rdoc.git
