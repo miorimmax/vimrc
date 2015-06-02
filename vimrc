@@ -40,7 +40,8 @@ colorscheme zenburn
 set number
 set cursorline
 set cursorcolumn
-set colorcolumn=100
+set colorcolumn=98
+set textwidth=98
 
 " CtrlP
 let mapleader = ","
