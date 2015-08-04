@@ -72,3 +72,6 @@ endif
 
 " Enable mouse
 set mouse=a
+
+" Backspace
+set backspace=indent,eol,start
