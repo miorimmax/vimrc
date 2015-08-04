@@ -49,3 +49,11 @@
 [submodule "bundle/vim-rdoc"]
 	path = bundle/vim-rdoc
 	url = https://github.com/depuracao/vim-rdoc.git
+[submodule "bundle/vim-terraform"]
+	path = bundle/vim-terraform
+	url = https://github.com/markcornick/vim-terraform.git
+	branch = master
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+	branch = master
