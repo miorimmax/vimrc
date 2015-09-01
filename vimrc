@@ -76,3 +76,7 @@ set mouse=a
 
 " Backspace
 set backspace=indent,eol,start
+
+" Split
+set splitbelow
+set splitright
