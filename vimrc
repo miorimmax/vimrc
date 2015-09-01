@@ -42,6 +42,7 @@ set cursorline
 set cursorcolumn
 set colorcolumn=98
 set textwidth=98
+set formatoptions-=t
 
 " CtrlP
 let mapleader = ","
