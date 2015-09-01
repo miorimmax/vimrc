@@ -80,3 +80,7 @@ set backspace=indent,eol,start
 " Split
 set splitbelow
 set splitright
+nnoremap <C-J> <C-W><S-J>
+nnoremap <C-K> <C-W><S-K>
+nnoremap <C-L> <C-W><S-L>
+nnoremap <C-H> <C-W><S-H>
