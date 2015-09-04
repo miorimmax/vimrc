@@ -85,3 +85,6 @@ nnoremap <C-J> <C-W><S-J>
 nnoremap <C-K> <C-W><S-K>
 nnoremap <C-L> <C-W><S-L>
 nnoremap <C-H> <C-W><S-H>
+
+" Airline
+let g:airline_powerline_fonts = 1
