@@ -36,7 +36,8 @@ set autoindent
 
 " Look and feel
 "let g:zenburn_force_dark_Background = 1
-colorscheme zenburn
+set background=dark
+colorscheme solarized
 set number
 set cursorline
 set cursorcolumn
