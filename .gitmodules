@@ -63,3 +63,7 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
+[submodule "bundle/aws-vim"]
+	path = bundle/aws-vim
+	url = https://github.com/m-kat/aws-vim.git
+	branch = master
