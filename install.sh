@@ -35,7 +35,7 @@ case "`uname`" in
 esac
 
 cd "$CWD/bundle/YouCompleteMe"
-./install.sh --clang-completer
+./install.py --clang-completer
 cd "$CWD"
 
 if [ ! -r ~/.vimrc ]; then
