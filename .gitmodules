@@ -67,3 +67,7 @@
 	path = bundle/aws-vim
 	url = https://github.com/m-kat/aws-vim.git
 	branch = master
+[submodule "bundle/vim-airline-themes"]
+	path = bundle/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+	branch = master
