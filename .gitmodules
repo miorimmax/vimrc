@@ -71,3 +71,7 @@
 	path = bundle/vim-airline-themes
 	url = https://github.com/vim-airline/vim-airline-themes
 	branch = master
+[submodule "bundle/editorconfig-vim"]
+	path = bundle/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim.git
+	branch = master
