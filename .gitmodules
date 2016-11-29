@@ -78,3 +78,36 @@
 [submodule "bundle/dash.vim"]
 	path = bundle/dash.vim
 	url = https://github.com/rizzatti/dash.vim.git
+[submodule "bundle/gruvbox"]
+	path = bundle/gruvbox
+	url = https://github.com/morhetz/gruvbox
+[submodule "bundle/rainbow"]
+	path = bundle/rainbow
+	url = https://github.com/luochen1990/rainbow
+[submodule "bundle/vim-clojure-highlight"]
+	path = bundle/vim-clojure-highlight
+	url = https://github.com/guns/vim-clojure-highlight.git
+[submodule "bundle/vim-clojure-static"]
+	path = bundle/vim-clojure-static
+	url = https://github.com/guns/vim-clojure-static.git
+[submodule "bundle/vim-fireplace"]
+	path = bundle/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace.git
+[submodule "bundle/vim-salve"]
+	path = bundle/vim-salve
+	url = https://github.com/tpope/vim-salve.git
+[submodule "bundle/vim-cider"]
+	path = bundle/vim-cider
+	url = https://github.com/clojure-vim/vim-cider.git
+[submodule "bundle/dracula-theme"]
+	path = bundle/dracula-theme
+	url = git@github.com:dracula/vim.git
+[submodule "bundle/darcula"]
+	path = bundle/darcula
+	url = https://github.com/blueshirts/darcula.git
+[submodule "bundle/onedark"]
+	path = bundle/onedark
+	url = https://github.com/joshdick/onedark.vim.git
+[submodule "bundle/vim-polyglot"]
+	path = bundle/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
