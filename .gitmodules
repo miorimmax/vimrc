@@ -2,18 +2,6 @@
 	path = bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
 	branch = master
-[submodule "bundle/vim-markdown"]
-	path = bundle/vim-markdown
-	url = https://github.com/tpope/vim-markdown.git
-	branch = master
-[submodule "bundle/vim-json"]
-	path = bundle/vim-json
-	url = https://github.com/elzr/vim-json.git
-	branch = master
-[submodule "bundle/vim-ruby"]
-	path = bundle/vim-ruby
-	url = https://github.com/vim-ruby/vim-ruby.git
-	branch = master
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/valloric/YouCompleteMe.git
@@ -38,28 +26,10 @@
 	path = bundle/bats.vim
 	url = https://github.com/rosstimson/bats.vim.git
 	branch = master
-[submodule "bundle/vim-scala"]
-	path = bundle/vim-scala
-	url = https://github.com/derekwyatt/vim-scala.git
-	branch = master
-[submodule "bundle/vim-syntax-vcl"]
-	path = bundle/vim-syntax-vcl
-	url = http://github.com/pld-linux/vim-syntax-vcl.git
-	branch = master
-[submodule "bundle/vim-rdoc"]
-	path = bundle/vim-rdoc
-	url = https://github.com/depuracao/vim-rdoc.git
 [submodule "bundle/vim-terraform"]
 	path = bundle/vim-terraform
 	url = https://github.com/markcornick/vim-terraform.git
 	branch = master
-[submodule "bundle/vim-go"]
-	path = bundle/vim-go
-	url = https://github.com/fatih/vim-go.git
-	branch = master
-[submodule "bundle/vim-colors-solarized"]
-	path = bundle/vim-colors-solarized
-	url = https://github.com/altercation/vim-colors-solarized.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/bling/vim-airline
@@ -75,39 +45,15 @@
 	path = bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
 	branch = master
-[submodule "bundle/dash.vim"]
-	path = bundle/dash.vim
-	url = https://github.com/rizzatti/dash.vim.git
-[submodule "bundle/gruvbox"]
-	path = bundle/gruvbox
-	url = https://github.com/morhetz/gruvbox
 [submodule "bundle/rainbow"]
 	path = bundle/rainbow
 	url = https://github.com/luochen1990/rainbow
-[submodule "bundle/vim-clojure-highlight"]
-	path = bundle/vim-clojure-highlight
-	url = https://github.com/guns/vim-clojure-highlight.git
-[submodule "bundle/vim-clojure-static"]
-	path = bundle/vim-clojure-static
-	url = https://github.com/guns/vim-clojure-static.git
-[submodule "bundle/vim-fireplace"]
-	path = bundle/vim-fireplace
-	url = https://github.com/tpope/vim-fireplace.git
-[submodule "bundle/vim-salve"]
-	path = bundle/vim-salve
-	url = https://github.com/tpope/vim-salve.git
-[submodule "bundle/vim-cider"]
-	path = bundle/vim-cider
-	url = https://github.com/clojure-vim/vim-cider.git
-[submodule "bundle/dracula-theme"]
-	path = bundle/dracula-theme
-	url = git@github.com:dracula/vim.git
-[submodule "bundle/darcula"]
-	path = bundle/darcula
-	url = https://github.com/blueshirts/darcula.git
+	branch = master
 [submodule "bundle/onedark"]
 	path = bundle/onedark
 	url = https://github.com/joshdick/onedark.vim.git
+	branch = master
 [submodule "bundle/vim-polyglot"]
 	path = bundle/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+	branch = master
