@@ -24,9 +24,14 @@
 CWD="`cd "\`dirname "$0"\`"; pwd`"
 cd "$CWD"
 
+# Clean up
+if [ "$1" = "clean" ]; then
+  git clean -f -d -x
+  git submodule foreach --recursive 'git clean -f -d -x'
+fi
+
 # Initialize the submodules
 git submodule update --init --recursive
-git submodule foreach 'git submodule update --init --recursive'
 
 # Build YouCompleteMe
 case "`uname`" in
