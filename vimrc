@@ -116,3 +116,6 @@ nmap <silent> <leader>, <Plug>DashSearch
 
 " rainbow
 let g:rainbow_active = 1
+
+" NERDTree
+map <leader>t :NERDTreeToggle<CR>
