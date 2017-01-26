@@ -22,7 +22,6 @@
 #
 
 CWD="`cd "\`dirname "$0"\`"; pwd`"
-cd "$CWD"
 
 # Clean up
 if [ "$1" = "clean" ]; then
@@ -35,13 +34,11 @@ git submodule update --init --recursive
 
 # Build YouCompleteMe
 case "`uname`" in
-    Darwin) brew list -1 | grep -q cmake || brew install cmake ;;
+    Darwin) brew install cmake go ;;
     Linux) sudo apt-get install -y build-essential cmake python-dev ;;
 esac
 
-cd "$CWD/bundle/YouCompleteMe"
-./install.py --clang-completer
-cd "$CWD"
+( cd "$CWD/bundle/YouCompleteMe"; ./install.py --clang-completer --go-completer )
 
 if [ ! -r ~/.vimrc ]; then
     ln -s ~/.vim/vimrc ~/.vimrc
