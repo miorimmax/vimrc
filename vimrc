@@ -20,9 +20,24 @@
 " THE SOFTWARE.
 "
 
-" Setup pathogen
-runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
+" Setup Vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'joshdick/onedark.vim'
+Plugin 'sheerun/vim-polyglot'
+Plugin 'kien/ctrlp'
+Plugin 'tpope/vim-surround'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'valloric/YouCompleteMe'
+Plugin 'Raimondi/delimitMate'
+Plugin 'luochen1990/rainbow'
+call vundle#end()
+
 syntax on
 filetype plugin indent on
 
@@ -63,7 +78,8 @@ set formatoptions-=t
 
 " CtrlP
 let mapleader = ","
-let g:ctrlp_map = "<Leader>f"
+let g:ctrlp_map = "<leader>o"
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 " Search
 set incsearch
@@ -107,8 +123,9 @@ nnoremap <C-H> <C-W><S-H>
 let g:airline_theme = 'onedark'
 let g:airline_powerline_fonts = 1
 let g:airline_skip_empty_sections = 1
+let g:airline#extensions#nerd_tree#enabled = 1
 let g:airline#extensions#ycm#enabled = 1
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 0
 let g:airline#extensions#tabline#show_close_button = 0
 
 " Dash
@@ -118,4 +135,6 @@ nmap <silent> <leader>, <Plug>DashSearch
 let g:rainbow_active = 1
 
 " NERDTree
-map <leader>t :NERDTreeToggle<CR>
+map <leader>tt :NERDTreeToggle<CR>
+map <leader>tx :NERDTreeClose<CR>
+map <leader>to :NERDTreeFind<CR>
